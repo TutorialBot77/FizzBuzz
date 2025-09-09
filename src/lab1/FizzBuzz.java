@@ -1,5 +1,6 @@
 package lab1;
 
+
 /**
  * Solve the lab1.FizzBuzz challenge.
  */
@@ -7,11 +8,11 @@ class FizzBuzz {
 
     public static void main(String[] args) {
 
-        DoFizzBuzz();
+        doFizzBuzz();
 
     }
 
-    private static void DoFizzBuzz() {
+    public static void doFizzBuzz() {
         int i = 1;
         while (i < 100) {
 
